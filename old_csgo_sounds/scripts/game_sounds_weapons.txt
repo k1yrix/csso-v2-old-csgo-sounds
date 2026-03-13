@@ -676,7 +676,10 @@
 	"volume"		"0.8"
 	"pitch"			"98,101"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/glock18/glock18-1.wav"
+	"rndwave"
+	{
+		"wave"		"`)weapons/glock18/glock18-1.wav"
+	}
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -687,22 +690,6 @@
 			"play_distant_version_1"
 			{
 				"entry_name" "Weapon_Glock18.SingleDistant"
-			}
-			"play_element_1"
-			{
-				"operator" "sys_start_entry"
-				"execute_once" "true"
-				"input_execute"	"1.0"
-				"input_start" "1"
-				"entry_name" "Weapon_Glock18.Element_CRB"
-			}
-			"play_element_2"
-			{
-				"operator" "sys_start_entry"
-				"execute_once" "true"
-				"input_execute"	"1.0"
-				"input_start" "1"
-				"entry_name" "Weapon_Glock18.Element_Click"
 			}
 		}
 
