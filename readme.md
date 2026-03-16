@@ -44,10 +44,10 @@ the only differences is that this port uses a modified sound script based from t
 > the r8 revolver is an exception becuase it doesn't exist in csgo on launch. (not until 2015, prior to the weapon sound overhauls)
 
 ### heavy weapons
-- [] nova
-- [] xm1014
-- [] sawed-off
-- [] mag7
+- [x] nova
+- [x] xm1014
+- [x] sawed-off
+- [x] mag7
 - [x] negev
 - [x] m249
 

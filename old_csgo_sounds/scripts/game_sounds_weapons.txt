@@ -1633,7 +1633,7 @@
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/xm1014/xm1014_01.wav"
+	"wave"			"`)weapons/xm1014/xm1014-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1669,7 +1669,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/xm1014/xm1014_distant.wav"
+	"wave"			"~weapons/xm1014/xm1014-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1696,13 +1696,8 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.5, 1.0"
 	"pitch"			"100"
-	"soundlevel"  		"SNDLVL_65dB"
-	"rndwave"
-	{
-		"wave"			"~weapons/xm1014/xm1014_insertshell_01.wav"
-		"wave"			"~weapons/xm1014/xm1014_insertshell_02.wav"
-		"wave"			"~weapons/xm1014/xm1014_insertshell_03.wav"
-	}
+	"soundlevel"  	"SNDLVL_65dB"
+	"wave"			"~weapons/xm1014/xm1014_insertshell.wav"
 	"soundentry_version" "2"
 	"operator_stacks"
 	{
@@ -1756,11 +1751,7 @@
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/mag7/mag7_01.wav"
-		"wave"		"`)weapons/mag7/mag7_02.wav"
-	}
+	"wave"			"`)weapons/mag7/mag7-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1796,12 +1787,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-
-	"rndwave"
-	{
-		"wave"		"~)weapons/mag7/mag7_distant_01.wav"
-		"wave"		"~)weapons/mag7/mag7_distant_02.wav"
-	}
+	"wave"			"~)weapons/mag7/mag7-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1911,7 +1897,7 @@
 	"volume"		"0.4"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/mag7/mag7_pumpforward.wav"
+	"wave"			"~weapons/mag7/mag7_pump_forward.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1938,7 +1924,7 @@
 	"volume"		"0.5"
 	"pitch"			"150"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/mag7/mag7_pumpback.wav"
+	"wave"			"~weapons/mag7/mag7_pump_back.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1966,7 +1952,7 @@
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/nova/nova_01.wav"
+	"wave"			"`)weapons/nova/nova-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2002,7 +1988,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/nova/nova_distant.wav"
+	"wave"			"~weapons/nova/nova-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2030,11 +2016,7 @@
 	"pitch"			"98, 102"
 	"soundlevel"  	"SNDLVL_65dB"
 	"rndwave"
-	{
-		"wave"		"~weapons/nova/nova_insertshell_01.wav"
-		"wave"		"~weapons/nova/nova_insertshell_02.wav"
-		"wave"		"~weapons/nova/nova_insertshell_03.wav"
-	}
+	"wave"			"~weapons/nova/nova_insertshell.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2143,7 +2125,7 @@
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/sawedoff/sawedoff_01.wav"
+	"wave"			"`)weapons/sawedoff/sawedoff-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2179,7 +2161,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/sawedoff/sawedoff_distant.wav"
+	"wave"			"~weapons/sawedoff/sawedoff-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2207,12 +2189,7 @@
 	"pitch"			"98, 102"
 	"soundlevel"  		"SNDLVL_65dB"
 	"rndwave"
-	{
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_01.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_02.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_03.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_04.wav"
-	}
+	"wave"			"~weapons/sawedoff/sawedoff_insertshell.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
