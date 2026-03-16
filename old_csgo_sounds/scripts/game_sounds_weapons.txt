@@ -1344,11 +1344,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/negev/negev_01.wav"
-		"wave"		"`)weapons/negev/negev_02.wav"
-	}
+	"wave"			"`)weapons/negev/negev-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1384,11 +1380,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/negev/negev_clean_01.wav"
-		"wave"		"`)weapons/negev/negev_clean_02.wav"
-	}
+	"wave"			"`)weapons/negev/negev-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1424,7 +1416,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/negev/negev_distant.wav"
+	"wave"			"~weapons/negev/negev-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"

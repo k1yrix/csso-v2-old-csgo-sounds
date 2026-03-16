@@ -48,7 +48,7 @@ the only differences is that this port uses a modified sound script based from t
 - [] xm1014
 - [] sawed-off
 - [] mag7
-- [] negev
+- [x] negev
 - [x] m249
 
 ### submachines
