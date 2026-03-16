@@ -7544,7 +7544,6 @@
 		"wave"		")weapons/knife/knife_hitwall2.wav"
 		"wave"		")weapons/knife/knife_hitwall3.wav"
 		"wave"		")weapons/knife/knife_hitwall4.wav"
-		"wave"		")weapons/knife/knife_hitwall5.wav"
 	}
 }
 
