@@ -83,3 +83,4 @@ the only differences is that this port uses a modified sound script based from t
 - [] molotov
 - [] incendiary
 - [] c4
+- [] knife
