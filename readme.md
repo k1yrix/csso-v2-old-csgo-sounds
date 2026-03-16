@@ -70,16 +70,16 @@ the only differences is that this port uses a modified sound script based from t
 - [] m4a1-s
 - [] ssg 08
 - [] sg 553
-- [x] aug
-- [x] awp
+- [] aug
+- [] awp
 - [x] g3sg1
-- [x] scar-20
+- [] scar-20
 
 ### grenades and other equipment
-- [x] he
-- [x] decoy
-- [x] flashbang
-- [x] smoke
-- [x] molotov
-- [x] incendiary
-- [x] c4
+- [] he
+- [] decoy
+- [] flashbang
+- [] smoke
+- [] molotov
+- [] incendiary
+- [] c4
