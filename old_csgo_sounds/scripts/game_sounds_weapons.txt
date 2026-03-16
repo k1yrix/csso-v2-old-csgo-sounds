@@ -1062,7 +1062,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/galilar/galilar_boltforward.wav"
+	"wave"			"~weapons/galilar/galil_boltforward.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
