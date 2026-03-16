@@ -7555,8 +7555,8 @@
 	"soundlevel"  	"SNDLVL_65dB"
 	"rndwave"
 	{
-		"wave" 		")weapons/knife/knife_slash_1.wav"
-		"wave" 		")weapons/knife/knife_slash_2.wav"
+		"wave" 		")weapons/knife/knife_slash1.wav"
+		"wave" 		")weapons/knife/knife_slash2.wav"
 	}
 }
 
