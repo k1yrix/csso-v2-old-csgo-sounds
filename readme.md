@@ -49,7 +49,7 @@ the only differences is that this port uses a modified sound script based from t
 - [] sawed-off
 - [] mag7
 - [] negev
-- [] m249
+- [x] m249
 
 ### submachines
 - [] mac10

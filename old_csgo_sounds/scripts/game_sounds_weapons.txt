@@ -1091,7 +1091,7 @@
 	"volume"		"1.0"
 	"pitch"			"99, 101"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/m249/m249_01.wav"
+	"wave"			"`)weapons/m249/m249-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1127,7 +1127,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/m249/m249_distant.wav"
+	"wave"			"~weapons/m249/m249-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
