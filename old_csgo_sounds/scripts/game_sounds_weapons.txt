@@ -11042,9 +11042,9 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/molotov/molotov_detonate_1.wav"
-		"wave"		"~)weapons/molotov/molotov_detonate_2.wav"
-		"wave"		"~)weapons/molotov/molotov_detonate_3.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_01.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_02.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_03.wav"
 	}
 
 	"soundentry_version" "2"
@@ -11083,9 +11083,9 @@
 	"soundlevel"	"SNDLVL_130dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/molotov/molotov_detonate_1_distant.wav"
-		"wave"		"~)weapons/molotov/molotov_detonate_2_distant.wav"
-		"wave"		"~)weapons/molotov/molotov_detonate_3_distant.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_01_distant.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_02_distant.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_03_distant.wav"
 	}
 
 	"soundentry_version" "2"
@@ -11113,7 +11113,12 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_95dB"
-	"wave"			"~)weapons/molotov/molotov_detonate_air.wav"
+	"rndwave"
+	{
+		"wave"		"~)weapons/molotov/molotov_detonate_01.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_02.wav"
+		"wave"		"~)weapons/molotov/molotov_detonate_03.wav"
+	}
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -11148,7 +11153,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.5"
 	"soundlevel"	"SNDLVL_95dB"
-	"wave"			"~)weapons/molotov/molotov_detonate_swt_01.wav"
+	"wave"			"~)weapons/molotov/molotov_detonate_sweeten.wav"
 }
 
 "Weapon_IncendiaryGrenade.Bounce"
