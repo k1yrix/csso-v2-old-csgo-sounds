@@ -4012,7 +4012,7 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/ssg08/ssg08_zoom.wav"
+	"wave"			"~weapons/ssg08/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4252,7 +4252,7 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/scar20/scar20_zoom.wav"
+	"wave"			"~weapons/scar20/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4279,7 +4279,7 @@
 	"volume"		"1"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/scar20/scar20_zoom.wav"
+	"wave"			"~weapons/scar20/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
