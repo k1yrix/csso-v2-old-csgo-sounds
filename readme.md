@@ -4,7 +4,7 @@ this project is basically porting the csgo old sounds community sound addon from
 
 (disclaimer: this does not include old UI sounds, that's for another project)
 
-the only differences is that this port uses the sound script based from the vanilla sound script and doesn't use recompiled models.
+the only differences is that this port uses a modified sound script based from the vanilla sound script and doesn't use recompiled models.
 
 ![the screenshot of the community addon entry for csgo old ounds](aaaaaa.png)
 
