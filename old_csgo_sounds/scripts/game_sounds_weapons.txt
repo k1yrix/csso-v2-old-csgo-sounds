@@ -6310,7 +6310,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
+	"soundlevel"  	"SNDLVL_93dB"
 	"wave"			"`)weapons/elite/elite-1.wav"
 
 	"soundentry_version" "2"
