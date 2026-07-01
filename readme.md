@@ -1,8 +1,10 @@
 > [!Warning]
 > As CSSO 2.0 is fully released, I need time to make adjustments to make sure all the sounds are pointed to the correct sound event.
-> I am also due to just use and modify the weapon sound file from 2.0 instead. I intend to fully release the files as it currently stands first before going ahead with the rewrite.
+> I am also due to just use and modify the weapon sound file from 2.0 instead, as I believe it's much cleaner to see than the old sound file.
 >
-> Also the molotov lighter sound does not play. I don't know why whenever I modify the sound event.
+> Since the addon is currently good as it stands, I intend to fully release first before going ahead with the rewrite.
+>
+> (Also the molotov lighter sound does not play. I don't know why whenever I modify the sound event)
 
 # Counter-Strike: Source Offensive v2 - Old CS:GO Sounds
 
