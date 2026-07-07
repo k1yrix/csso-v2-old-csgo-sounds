@@ -2063,10 +2063,10 @@
 "Weapon_Nova.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/nova/nova_01.wav"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/nova/nova-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2102,7 +2102,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/nova/nova_distant.wav"
+	"wave"			"~weapons/nova/nova-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2126,15 +2126,10 @@
 "Weapon_Nova.InsertShell"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.3, 1.0"
-	"pitch"			"98, 102"
+	"volume"		"0.5, 1.0"
+	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"rndwave"
-	{
-		"wave"		"~weapons/nova/nova_insertshell_01.wav"
-		"wave"		"~weapons/nova/nova_insertshell_02.wav"
-		"wave"		"~weapons/nova/nova_insertshell_03.wav"
-	}
+	"wave"			"weapons/nova/nova_insertshell.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
