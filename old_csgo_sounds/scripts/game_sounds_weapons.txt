@@ -4575,7 +4575,7 @@
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_clipout.wav"
+	"wave"			"~weapons/sg556/sg556_clipout.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
