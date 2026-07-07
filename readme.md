@@ -28,60 +28,60 @@ compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sou
 
 ## progress report
 ### pistols
-- [] glock 18
-- [] p2000
-- [] usp
-- [] dual elites
-- [] p250
-- [] cz75-auto
-- [] five-seven
-- [] tec-9
-- [] desert eagle
+- [ ] glock 18
+- [ ] p2000
+- [ ] usp
+- [ ] dual elites
+- [ ] p250
+- [ ] cz75-auto
+- [ ] five-seven
+- [ ] tec-9
+- [ ] desert eagle
 
 > [!NOTE]
 > the r8 revolver is an exception becuase it doesn't exist in csgo on launch. (not until 2015, prior to the weapon sound overhauls)
 
 ### heavy weapons
-- [] nova
-- [] xm1014
-- [] sawed-off
-- [] mag7
-- [] negev
-- [] m249
+- [ ] nova
+- [ ] xm1014
+- [ ] sawed-off
+- [ ] mag7
+- [ ] negev
+- [ ] m249
 
 ### submachines
-- [] mac10
-- [] mp9
-- [] mp7
-- [] ump-45
-- [] p90
-- [] pp-bizon
+- [ ] mac10
+- [ ] mp9
+- [ ] mp7
+- [ ] ump-45
+- [ ] p90
+- [ ] pp-bizon
 
 > [!NOTE]
 > similar to the r8 revolver, the mp5 is an exception becuase it doesn't exist in csgo on launch. (not until 2018, after the weapon sound overhauls)
 
 ### rifles
-- [] galil ar
-- [] famas
-- [] ak-47
-- [] m4a4
-- [] m4a1-s
-- [] ssg 08
-- [] sg 553
-- [] aug
-- [] awp
-- [] g3sg1
-- [] scar-20
+- [ ] galil ar
+- [ ] famas
+- [ ] ak-47
+- [ ] m4a4
+- [ ] m4a1-s
+- [ ] ssg 08
+- [ ] sg 553
+- [ ] aug
+- [ ] awp
+- [ ] g3sg1
+- [ ] scar-20
 
 ### grenades and other equipment
-- [] he
-- [] decoy
-- [] flashbang
-- [] smoke
-- [] molotov*
-- [] incendiary
-- [] c4
-- [] knife**
+- [ ] he
+- [ ] decoy
+- [ ] flashbang
+- [ ] smoke
+- [ ] molotov*
+- [ ] incendiary
+- [ ] c4
+- [ ] knife**
 
 > *ignition sound broken
 
