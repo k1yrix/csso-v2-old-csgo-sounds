@@ -2238,7 +2238,7 @@
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/sawedoff/sawedoff_01.wav"
+	"wave"			"`)weapons/sawedoff/sawedoff-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2274,7 +2274,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/sawedoff/sawedoff_distant.wav"
+	"wave"			"~weapons/sawedoff/sawedoff-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2298,16 +2298,10 @@
 "Weapon_SawedOff.Insertshell"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5, 0.9"
-	"pitch"			"98, 102"
+	"volume"		"0.5, 1.0"
+	"pitch"			"100"
 	"soundlevel"  		"SNDLVL_65dB"
-	"rndwave"
-	{
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_01.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_02.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_03.wav"
-		"wave"			"~weapons/sawedoff/sawedoff_insertshell_04.wav"
-	}
+	"wave"			"weapons/sawedoff/sawedoff_insertshell.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2413,14 +2407,10 @@
 "Weapon_MAC10.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.65"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/mac10/mac10_01.wav"
-		"wave"		"`)weapons/mac10/mac10_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/mac10/mac10-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2456,7 +2446,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/mac10/mac10_distant.wav"
+	"wave"			"~weapons/mac10/mac10-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2480,8 +2470,8 @@
 "Weapon_MAC10.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0, 1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mac10/mac10_clipout.wav"
 
@@ -2508,8 +2498,8 @@
 "Weapon_MAC10.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0, 1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mac10/mac10_clipin.wav"
 
@@ -2536,7 +2526,7 @@
 "Weapon_MAC10.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mac10/mac10_draw.wav"
@@ -2563,8 +2553,8 @@
 "Weapon_MAC10.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0, 1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mac10/mac10_boltforward.wav"
 
@@ -2591,8 +2581,8 @@
 "Weapon_MAC10.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0, 1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mac10/mac10_boltback.wav"
 
