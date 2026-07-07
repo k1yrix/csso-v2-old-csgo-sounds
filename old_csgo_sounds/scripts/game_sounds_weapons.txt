@@ -12437,7 +12437,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_95dB"
-	"wave"			"~)weapons/incgrenade/incendiarygrenade_detonate_swt_01.wav"
+	"wave"			"~)weapons/incgrenade/inc_grenade_detonate_swt_01.wav"
 }
 
 "Weapon_IncendiaryGrenade.InspectMove"
