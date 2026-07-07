@@ -12183,7 +12183,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-	"wave"			"~weapons/incendiarygrenade/incendiarygrenade_bounce_m.wav"
+	"wave"			"~weapons/incgrenade/inc_grenade_bounce-1.wav"
 }
 
 "Weapon_IncendiaryGrenade.PullPin_Grenade_Start"
@@ -12192,7 +12192,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_65dB"
-	"wave"			"weapons/incendiarygrenade/pinpull_start.wav"
+	"wave"			"weapons/incgrenade/pinpull_start.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -12219,7 +12219,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_65dB"
-	"wave"			"weapons/incendiarygrenade/pinpull.wav"
+	"wave"			"weapons/incgrenade/pinpull.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -12246,7 +12246,7 @@
 	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_65dB"
-	"wave"			"weapons/incendiarygrenade/inc_grenade_draw.wav"
+	"wave"			"weapons/increnade/inc_grenade_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -12273,7 +12273,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_65dB"
-	"wave"			"weapons/incendiarygrenade/inc_grenade_throw.wav"
+	"wave"			"weapons/incgrenade/inc_grenade_throw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -12301,9 +12301,9 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/incendiarygrenade/inc_grenade_detonate_1.wav"
-		"wave"		"~)weapons/incendiarygrenade/inc_grenade_detonate_2.wav"
-		"wave"		"~)weapons/incendiarygrenade/inc_grenade_detonate_3.wav"
+		"wave"		"~)weapons/incgrenade/inc_grenade_detonate_1.wav"
+		"wave"		"~)weapons/incgrenade/inc_grenade_detonate_2.wav"
+		"wave"		"~)weapons/incgrenade/inc_grenade_detonate_3.wav"
 	}
 
 	"soundentry_version" "2"
@@ -12342,9 +12342,9 @@
 	"soundlevel"	"SNDLVL_130dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_1_distant.wav"
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_2_distant.wav"
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_3_distant.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_1_distant.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_2_distant.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_3_distant.wav"
 	}
 
 	"soundentry_version" "2"
@@ -12399,9 +12399,9 @@
 	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_1.wav"
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_2.wav"
-		"wave"		"~)weapons/incendiarygrenade/incendiarygrenade_detonate_3.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_1.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_2.wav"
+		"wave"		"~)weapons/incgrenade/incendiarygrenade_detonate_3.wav"
 	}
 
 	"soundentry_version" "2"
@@ -12437,7 +12437,7 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_95dB"
-	"wave"			"~)weapons/incendiarygrenade/incendiarygrenade_detonate_swt_01.wav"
+	"wave"			"~)weapons/incgrenade/incendiarygrenade_detonate_swt_01.wav"
 }
 
 "Weapon_IncendiaryGrenade.InspectMove"
