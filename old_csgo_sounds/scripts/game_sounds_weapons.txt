@@ -4715,8 +4715,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"99, 101"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/fiveseven/fiveseven_01.wav"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/fiveseven/fiveseven-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4752,7 +4752,7 @@
 	"volume"		"1.0"
 	"pitch"			"98, 101"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/fiveseven/fiveseven_distant.wav"
+	"wave"			"~weapons/fiveseven/fiveseven-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4776,8 +4776,8 @@
 "Weapon_FiveSeven.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/fiveseven/fiveseven_clipout.wav"
 
@@ -4804,8 +4804,8 @@
 "Weapon_FiveSeven.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/fiveseven/fiveseven_clipin.wav"
 
@@ -4832,7 +4832,7 @@
 "Weapon_FiveSeven.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/fiveseven/fiveseven_draw.wav"
@@ -4859,8 +4859,8 @@
 "Weapon_FiveSeven.SlideRelease"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/fiveseven/fiveseven_sliderelease.wav"
 
@@ -4886,8 +4886,8 @@
 "Weapon_FiveSeven.SlideBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/fiveseven/fiveseven_slideback.wav"
 
