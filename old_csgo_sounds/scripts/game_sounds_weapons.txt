@@ -9080,7 +9080,7 @@
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/deagle/de_clipout.wav"
+	"wave"			"~weapons/deagle/de_clipin.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -9162,7 +9162,7 @@
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/deagle/de_sliderelease.wav"
+	"wave"			"~weapons/deagle/de_slideforward.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
