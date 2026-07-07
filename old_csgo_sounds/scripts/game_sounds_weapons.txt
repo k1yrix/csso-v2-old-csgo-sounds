@@ -7354,12 +7354,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/awp/awp_01.wav"
-		"wave"		"`)weapons/awp/awp_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/awp/awp1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -7404,7 +7400,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~)weapons/awp/awp_distant.wav"
+	"wave"			"~)weapons/awp/awp1_distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -7520,7 +7516,7 @@
 "Weapon_AWP.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/awp/awp_draw.wav"
@@ -7656,7 +7652,7 @@
 "Weapon_Knife.Deploy"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.1"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			")weapons/knife/knife_deploy.wav"
@@ -7665,51 +7661,50 @@
 "Weapon_Knife.Hit"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.6"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"rndwave"
 	{
-		"wave"		")weapons/knife/knife_hit_01.wav"
-		"wave"		")weapons/knife/knife_hit_02.wav"
-		"wave"		")weapons/knife/knife_hit_03.wav"
-		"wave"		")weapons/knife/knife_hit_04.wav"
+		"wave"		")weapons/knife/knife_hit1.wav"
+		"wave"		")weapons/knife/knife_hit2.wav"
+		"wave"		")weapons/knife/knife_hit3.wav"
+		"wave"		")weapons/knife/knife_hit4.wav"
 	}
 }
 
 "Weapon_Knife.HitWall"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.6"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"rndwave"
 	{
-		"wave"		")weapons/knife/knife_hit_wall_01.wav"
-		"wave"		")weapons/knife/knife_hit_wall_02.wav"
-		"wave"		")weapons/knife/knife_hit_wall_03.wav"
-		"wave"		")weapons/knife/knife_hit_wall_04.wav"
-		"wave"		")weapons/knife/knife_hit_wall_05.wav"
+		"wave"		")weapons/knife/knife_hit_wall1.wav"
+		"wave"		")weapons/knife/knife_hit_wall2.wav"
+		"wave"		")weapons/knife/knife_hit_wall3.wav"
+		"wave"		")weapons/knife/knife_hit_wall4.wav"
 	}
 }
 
 "Weapon_Knife.Slash"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.1, 0.6"
+	"volume"		"1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"rndwave"
 	{
-		"wave" 		")weapons/knife/knife_slash_01.wav"
-		"wave" 		")weapons/knife/knife_slash_02.wav"
+		"wave" 		")weapons/knife/knife_slash1.wav"
+		"wave" 		")weapons/knife/knife_slash2.wav"
 	}
 }
 
 "Weapon_Knife.Stab"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"		"0.6"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"  		")weapons/knife/knife_stab.wav"
