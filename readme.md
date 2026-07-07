@@ -5,13 +5,7 @@
 
 miss the old banging sounds from the old times of cs:go, but in source offensive? well you came to the right place!
 
-this project is basically porting the csgo old sounds community sound addon from CSSO 1.1 (image below) to CSSO v2.
-
-(disclaimer: this does not include old UI sounds, that's for another project)
-
-the only differences is that this port uses a modified sound script based from the vanilla sound script and doesn't use recompiled models.
-
-![the screenshot of the community addon entry for csgo old ounds](aaaaaa.png)
+compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sound script with no recompiled models. (also I added in old knife sounds for fun as well :3)
 
 ---
 
@@ -28,66 +22,65 @@ the only differences is that this port uses a modified sound script based from t
 ---
 
 ## credits
-- **pimon** // the creator of this awesome cs: source mod and the original author for the sound addon
 - **valve** // the sounds of the literal banging noises in your head
 
 ---
 
 ## progress report
 ### pistols
-- [x] glock 18
-- [x] p2000
-- [x] usp
-- [x] dual elites
-- [x] p250
-- [x] cz75-auto
-- [x] five-seven
-- [x] tec-9
-- [x] desert eagle
+- [] glock 18
+- [] p2000
+- [] usp
+- [] dual elites
+- [] p250
+- [] cz75-auto
+- [] five-seven
+- [] tec-9
+- [] desert eagle
 
 > [!NOTE]
 > the r8 revolver is an exception becuase it doesn't exist in csgo on launch. (not until 2015, prior to the weapon sound overhauls)
 
 ### heavy weapons
-- [x] nova
-- [x] xm1014
-- [x] sawed-off
-- [x] mag7
-- [x] negev
-- [x] m249
+- [] nova
+- [] xm1014
+- [] sawed-off
+- [] mag7
+- [] negev
+- [] m249
 
 ### submachines
-- [x] mac10
-- [x] mp9
-- [x] mp7
-- [x] ump-45
-- [x] p90
-- [x] pp-bizon
+- [] mac10
+- [] mp9
+- [] mp7
+- [] ump-45
+- [] p90
+- [] pp-bizon
 
 > [!NOTE]
 > similar to the r8 revolver, the mp5 is an exception becuase it doesn't exist in csgo on launch. (not until 2018, after the weapon sound overhauls)
 
 ### rifles
-- [x] galil ar
-- [x] famas
-- [x] ak-47
-- [x] m4a4
-- [x] m4a1-s
-- [x] ssg 08
-- [x] sg 553
-- [x] aug
-- [x] awp
-- [x] g3sg1
-- [x] scar-20
+- [] galil ar
+- [] famas
+- [] ak-47
+- [] m4a4
+- [] m4a1-s
+- [] ssg 08
+- [] sg 553
+- [] aug
+- [] awp
+- [] g3sg1
+- [] scar-20
 
 ### grenades and other equipment
-- [x] he
-- [x] decoy
-- [x] flashbang
-- [x] smoke
-- [x] molotov*
-- [x] incendiary
-- [x] c4
-- [x] knife
+- [] he
+- [] decoy
+- [] flashbang
+- [] smoke
+- [] molotov*
+- [] incendiary
+- [] c4
+- [] knife
 
 > *ignition sound broken
