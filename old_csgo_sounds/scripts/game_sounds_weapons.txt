@@ -7017,16 +7017,10 @@
 "Weapon_AUG.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/aug/aug_01.wav"
-		"wave"		"`)weapons/aug/aug_02.wav"
-		"wave"		"`)weapons/aug/aug_03.wav"
-		"wave"		"`)weapons/aug/aug_04.wav"
-	}
+	"soundlevel"  		"SNDLVL_93dB"
+	"wave"			")weapons/aug/aug-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -7062,7 +7056,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/aug/aug_distant.wav"
+	"wave"			"~weapons/aug/aug-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -7191,7 +7185,7 @@
 "Weapon_AUG.BoltPull"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5, 0.6"
+	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/aug/aug_boltpull.wav"
@@ -7219,7 +7213,7 @@
 "Weapon_AUG.BoltRelease"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5, 0.6"
+	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/aug/aug_boltrelease.wav"
@@ -7303,7 +7297,7 @@
 "Weapon_AUG.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/aug/aug_draw.wav"
