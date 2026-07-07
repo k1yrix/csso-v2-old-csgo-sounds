@@ -5391,16 +5391,10 @@
 "Weapon_HKP2000.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"1"
-	"pitch"			"99, 101"
-	"soundlevel"  	"SNDLVL_79dB"
-
-	"rndwave"
-	{
-		"wave"		"`)weapons/hkp2000/hkp2000_01.wav"
-		"wave"		"`)weapons/hkp2000/hkp2000_02.wav"
-		"wave"		"`)weapons/hkp2000/hkp2000_03.wav"
-	}
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/hkp2000/hkp2000-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5436,7 +5430,7 @@
 	"volume"		"1.0"
 	"pitch"			"98, 101"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/hkp2000/hkp2000_distant.wav"
+	"wave"			"~weapons/hkp2000/hkp2000-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5571,7 +5565,7 @@
 "Weapon_HKP2000.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/hkp2000/hkp2000_draw.wav"
@@ -5599,10 +5593,10 @@
 "Weapon_Tec9.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.8"
-	"pitch"			"99, 101"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/tec9/tec9_01.wav"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_93dB"
+	"wave"			"`)weapons/tec9/tec9-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5638,7 +5632,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/tec9/tec9_distant.wav"
+	"wave"			"~weapons/tec9/tec9-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5664,7 +5658,7 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
-	"soundlevel"  	"SNDLVL_60dB"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/tec9/tec9_clipout.wav"
 
 	"soundentry_version" "2"
@@ -5692,7 +5686,7 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
-	"soundlevel"  	"SNDLVL_60dB"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/tec9/tec9_clipin.wav"
 
 	"soundentry_version" "2"
@@ -5747,7 +5741,7 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
-	"soundlevel"  	"SNDLVL_60dB"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/tec9/tec9_boltpull.wav"
 
 	"soundentry_version" "2"
@@ -5775,7 +5769,7 @@
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.5, 1.0"
 	"pitch"			"97, 105"
-	"soundlevel"  	"SNDLVL_60dB"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/tec9/tec9_boltrelease.wav"
 
 	"soundentry_version" "2"
@@ -5803,16 +5797,9 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
-	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_60dB"
-
-	"rndwave"
-	{
-		"wave"		"`)weapons/m4a1/m4a1_01.wav"
-		"wave"		"`)weapons/m4a1/m4a1_02.wav"
-		"wave"		"`)weapons/m4a1/m4a1_03.wav"
-		"wave"		"`)weapons/m4a1/m4a1_04.wav"
-	}
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/m4a1/m4a1_unsil-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5848,12 +5835,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"rndwave"
-	{
-		"wave"		"~weapons/m4a1/m4a1_distant_01.wav"
-		"wave"		"~weapons/m4a1/m4a1_distant_02.wav"
-		"wave"		"~weapons/m4a1/m4a1_distant_03.wav"
-	}
+	"wave"			"weapons/m4a1/m4a1_unsil-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5872,10 +5854,10 @@
 "Weapon_M4A1.SingleSilenced"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"100"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_73dB"
-	"wave"			"`)weapons/m4a1/m4a1_silencer_01.wav"
+	"wave"			")weapons/m4a1/m4a1-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -5914,8 +5896,8 @@
 "Weapon_M4A1.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltback.wav"
 
@@ -5942,8 +5924,8 @@
 "Weapon_M4A1.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltforward.wav"
 
@@ -6029,7 +6011,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a1/m4a1_silencer_screw_01.wav"
+	"wave"			"~weapons/m4a1/m4a1_silencer_screw_1.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6057,7 +6039,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a1/m4a1_silencer_screw_02.wav"
+	"wave"			"~weapons/m4a1/m4a1_silencer_screw_2.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6085,7 +6067,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a1/m4a1_silencer_screw_03.wav"
+	"wave"			"~weapons/m4a1/m4a1_silencer_screw_3.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6113,7 +6095,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a1/m4a1_silencer_screw_04.wav"
+	"wave"			"~weapons/m4a1/m4a1_silencer_screw_4.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6141,7 +6123,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a1/m4a1_silencer_screw_05.wav"
+	"wave"			"~weapons/m4a1/m4a1_silencer_screw_5.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6168,13 +6150,9 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
-	"pitch"			"120"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/m4a4/m4a4_01.wav"
-		"wave"		"`)weapons/m4a4/m4a4_02.wav"
-	}
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/m4a1/m4a1_unsil-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -6210,7 +6188,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/m4a4/m4a4_distant.wav"
+	"wave"			"`)weapons/m4a1/m4a1_unsil-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -6234,10 +6212,10 @@
 "Weapon_M4A4.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"100, 101"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a4/m4a4_clipout.wav"
+	"wave"			"~weapons/m4a1/m4a1_clipout.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6262,10 +6240,10 @@
 "Weapon_M4A4.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.9"
-	"pitch"			"100, 105"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a4/m4a4_clipin.wav"
+	"wave"			"~weapons/m4a1/m4a1_clipin.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6290,8 +6268,8 @@
 "Weapon_M4A4.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.8"
-	"pitch"			"100"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a4/m4a4_boltback.wav"
 
@@ -6318,8 +6296,8 @@
 "Weapon_M4A4.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5"
-	"pitch"			"100"
+	"volume"		"0.5, 0.7"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a4/m4a4_boltforward.wav"
 
@@ -6346,8 +6324,8 @@
 "Weapon_M4A4.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
-	"pitch"			"100"
+	"volume"		"0.3, 0.5" //.draw
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a4/m4a4_draw.wav"
 
