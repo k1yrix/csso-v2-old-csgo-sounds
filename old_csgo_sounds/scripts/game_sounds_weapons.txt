@@ -3485,15 +3485,10 @@
 "Weapon_P90.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.80"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-
-	"rndwave"
-	{
-		"wave"		"`)weapons/p90/p90_01.wav"
-		"wave"		"`)weapons/p90/p90_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/p90/p90-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3529,7 +3524,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/p90/p90_distant.wav"
+	"wave"			"~weapons/p90/p90-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3553,8 +3548,8 @@
 "Weapon_P90.ClipRelease"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1, 1.0"
-	"pitch"			"98, 102"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_cliprelease.wav"
 
@@ -3580,8 +3575,8 @@
 "Weapon_P90.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1, 1.0"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_clipout.wav"
 
@@ -3608,8 +3603,8 @@
 "Weapon_P90.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1, 1.0"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_clipin.wav"
 
@@ -3636,7 +3631,7 @@
 "Weapon_P90.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_draw.wav"
@@ -3663,8 +3658,8 @@
 "Weapon_P90.ClipHit"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1, 1.0"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_cliphit.wav"
 
@@ -3691,8 +3686,8 @@
 "Weapon_P90.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_boltback.wav"
 
@@ -3719,8 +3714,8 @@
 "Weapon_P90.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.8"
-	"pitch"			"PITCH_NORM"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p90/p90_boltforward.wav"
 
