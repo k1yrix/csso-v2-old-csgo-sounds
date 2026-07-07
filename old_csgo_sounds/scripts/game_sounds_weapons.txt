@@ -3220,10 +3220,10 @@
 "Weapon_P250.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"98, 101"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/p250/p250_01.wav"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/p250/p250-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3259,7 +3259,7 @@
 	"volume"		"1.0"
 	"pitch"			"98, 101"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/p250/p250_distant.wav"
+	"wave"			"~weapons/p250/p250-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3339,7 +3339,7 @@
 "Weapon_P250.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/p250/p250_draw.wav"
