@@ -11564,17 +11564,17 @@
 "Weapon_C4.KeyPressQuiet"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.22"
+	"volume"		"0.32"
 	"soundlevel"	"SNDLVL_40dB"
 	"rndwave"
 	{
-		"wave"		"~)weapons/c4/c4_key_press_01.wav"
-		"wave"		"~)weapons/c4/c4_key_press_02.wav"
-		"wave"		"~)weapons/c4/c4_key_press_03.wav"
-		"wave"		"~)weapons/c4/c4_key_press_04.wav"
-		"wave"		"~)weapons/c4/c4_key_press_05.wav"
-		"wave"		"~)weapons/c4/c4_key_press_06.wav"
-		"wave"		"~)weapons/c4/c4_key_press_07.wav"
+		"wave"	")weapons/c4/key_press1.wav"
+		"wave"	")weapons/c4/key_press2.wav"
+		"wave"	")weapons/c4/key_press3.wav"
+		"wave"	")weapons/c4/key_press4.wav"
+		"wave"	")weapons/c4/key_press5.wav"
+		"wave"	")weapons/c4/key_press6.wav"
+		"wave"	")weapons/c4/key_press7.wav"
 	}
 
 	"ignore_occlusion" "1"
@@ -11600,9 +11600,9 @@
 "Weapon_C4.DisarmStart"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.7"
-	"soundlevel"	"SNDLVL_85dB"
-	"wave"			"~)weapons/c4/c4_disarmstart.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_80dB"
+	"wave"			"~)weapons/c4/c4_disarm.wav"
 
 	"ignore_occlusion" "1"
 	"soundentry_version" "2"
@@ -11632,9 +11632,9 @@
 "Weapon_C4.DisarmFinish"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"soundlevel"	"SNDLVL_85dB"
-	"wave"			"~)weapons/c4/c4_disarmfinish.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_80dB"
+	"wave"			"~)weapons/c4/c4_disarm.wav"
 
 	"ignore_occlusion" "1"
 	"soundentry_version" "2"
@@ -11702,9 +11702,9 @@
 "Weapon_C4.PlantSound"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"soundlevel"	"SNDLVL_60dB"
-	"wave"			"~weapons/c4/c4_beep_01.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"weapons/c4/c4_beep1.wav"
 
 	"ignore_occlusion" "1"
 }
@@ -11712,9 +11712,9 @@
 "Weapon_C4.PlantSound_10sec"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"soundlevel"	"SNDLVL_60dB"
-	"wave"			"~weapons/c4/c4_beep_01_10sec.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"weapons/c4/c4_beep1.wav"
 
 	"ignore_occlusion" "1"
 }
@@ -11722,10 +11722,9 @@
 "Weapon_C4.PlantSoundB"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.5"
-	"pitch"			"90"
-	"soundlevel"	"SNDLVL_60dB"
-	"wave"			"~weapons/c4/c4_beep_02.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"weapons/c4/c4_beep1.wav"
 
 	"ignore_occlusion" "1"
 }
@@ -11733,10 +11732,9 @@
 "Weapon_C4.PlantSoundB_10sec"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.6"
-	"pitch"			"90"
-	"soundlevel"	"SNDLVL_60dB"
-	"wave"			"~weapons/c4/c4_beep_02_10sec.wav"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"weapons/c4/c4_beep1.wav"
 
 	"ignore_occlusion" "1"
 }
