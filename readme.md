@@ -10,7 +10,7 @@ compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sou
 ---
 
 ## install?
-1. download this entire repository (the only thing you need to worry is the big folder)
+1. go to [the releases tab](https://github.com/k1yrix/csso-v2-old-csgo-sounds/releases) and download the latest release (do not download directly from this repository. it does NOT have the sounds required)
 2. unzip the repository
 3. open another file explorer window and find your csso installation (usually in the root of cs: source)
 4. open csso's content folder (`csso`) then its `custom` folder
