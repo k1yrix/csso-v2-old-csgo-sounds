@@ -81,6 +81,8 @@ compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sou
 - [] molotov*
 - [] incendiary
 - [] c4
-- [] knife
+- [] knife**
 
 > *ignition sound broken
+
+> **only impact sounds. a lot of their sounds have remained the same since each of their inceptions
