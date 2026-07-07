@@ -6,14 +6,14 @@
 	"rndwave"
 	{
 		"wave"		">weapons/fx/nearmiss/bulletltor01.wav"
-		"wave"		">weapons/fx/nearmiss/bulletltor02.wav"
-		"wave"		">weapons/fx/nearmiss/bulletltor03.wav"
-		"wave"		">weapons/fx/nearmiss/bulletltor04.wav"
-		"wave"		">weapons/fx/nearmiss/bulletltor05.wav"
 		"wave"		">weapons/fx/nearmiss/bulletltor06.wav"
 		"wave"		">weapons/fx/nearmiss/bulletltor07.wav"
 		"wave"		">weapons/fx/nearmiss/bulletltor08.wav"
 		"wave"		">weapons/fx/nearmiss/bulletltor09.wav"
+		"wave"		">weapons/fx/nearmiss/bulletltor10.wav"
+		"wave"		">weapons/fx/nearmiss/bulletltor11.wav"
+		"wave"		">weapons/fx/nearmiss/bulletltor13.wav"
+		"wave"		">weapons/fx/nearmiss/bulletltor14.wav"
 	}
 }
 
@@ -24,9 +24,9 @@
 	"volume"		"0.7"
 	"rndwave"
 	{
-		"wave"		"weapons/fx/rics/ric1.wav"
-		"wave"		"weapons/fx/rics/ric2.wav"
 		"wave"		"weapons/fx/rics/ric3.wav"
+		"wave"		"weapons/fx/rics/ric4.wav"
+		"wave"		"weapons/fx/rics/ric5.wav"
 	}
 
 	"soundentry_version" "2"
@@ -236,15 +236,10 @@
 "Weapon_Bizon.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.8"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-
-	"rndwave"
-	{
-		"wave"		"`)weapons/bizon/bizon_01.wav"
-		"wave"		"`)weapons/bizon/bizon_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/bizon/bizon-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -277,10 +272,10 @@
 "Weapon_Bizon.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"1"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/bizon/bizon_distant.wav"
+	"wave"			"~weapons/bizon/bizon-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -302,10 +297,10 @@
 
 "Weapon_Bizon.BoltBack"
 {
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"98, 102"
-	"soundlevel"  	"SNDLVL_60dB"
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/bizon/bizon_boltback.wav"
 
 	"soundentry_version" "2"
@@ -330,10 +325,10 @@
 
 "Weapon_Bizon.BoltForward"
 {
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9, 0.9"
-	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_60dB"
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/bizon/bizon_boltforward.wav"
 
 	"soundentry_version" "2"
@@ -415,7 +410,7 @@
 "Weapon_Bizon.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/bizon/bizon_draw.wav"
