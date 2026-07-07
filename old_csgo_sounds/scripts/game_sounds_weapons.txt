@@ -666,7 +666,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/g3sg1/g3sg1_zoom_in.wav"
+	"wave"			"~weapons/g3sg1/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -718,7 +718,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/g3sg1/g3sg1_zoom_in.wav"
+	"wave"			"~weapons/g3sg1/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4337,7 +4337,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/scar20/scar20_zoom_in.wav"
+	"wave"			"~weapons/scar20/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4389,7 +4389,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/scar20/scar20_zoom_in.wav"
+	"wave"			"~weapons/scar20/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -7699,7 +7699,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/awp/awp_zoom_in.wav"
+	"wave"			"~weapons/awp/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
