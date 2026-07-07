@@ -7,6 +7,8 @@ miss the old banging sounds from the old times of cs:go, but in source offensive
 
 compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sound script with no recompiled models. (also I added in old knife sounds for fun as well :3)
 
+this overrides both non-hd and hd weapons
+
 ---
 
 ## install?
