@@ -6271,7 +6271,7 @@
 	"volume"		"0.5, 0.7"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a4/m4a4_boltback.wav"
+	"wave"			"~weapons/m4a1/m4a1_boltback.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6299,7 +6299,7 @@
 	"volume"		"0.5, 0.7"
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a4/m4a4_boltforward.wav"
+	"wave"			"~weapons/m4a1/m4a1_boltforward.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -6327,7 +6327,7 @@
 	"volume"		"0.3, 0.5" //.draw
 	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/m4a4/m4a4_draw.wav"
+	"wave"			"~weapons/m4a1/m4a1_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
