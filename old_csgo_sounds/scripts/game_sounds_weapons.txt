@@ -6776,17 +6776,10 @@
 "Impl_Weapon_FAMAS.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.85"
-	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_79dB"
-
-	"rndwave"
-	{
-		"wave"		"`)weapons/famas/famas_01.wav"
-		"wave"		"`)weapons/famas/famas_02.wav"
-		"wave"		"`)weapons/famas/famas_03.wav"
-		"wave"		"`)weapons/famas/famas_04.wav"
-	}
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/famas/famas-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -6820,9 +6813,9 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
-	"pitch"			"105"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/famas/famas_distant.wav"
+	"wave"			"~weapons/famas/famas-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -6846,8 +6839,8 @@
 "Weapon_FAMAS.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/famas/famas_clipout.wav"
 
@@ -6874,8 +6867,8 @@
 "Weapon_FAMAS.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"99, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/famas/famas_clipin.wav"
 
@@ -6902,8 +6895,8 @@
 "Weapon_FAMAS.ClipHit"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"99, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/famas/famas_cliphit.wav"
 
@@ -6930,7 +6923,7 @@
 "Weapon_FAMAS.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/famas/famas_draw.wav"
@@ -6957,8 +6950,8 @@
 "Weapon_FAMAS.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"99, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/famas/famas_boltback.wav"
 
@@ -6985,8 +6978,8 @@
 "Weapon_FAMAS.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"99, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/famas/famas_boltforward.wav"
 
