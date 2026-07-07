@@ -743,14 +743,10 @@
 "Weapon_Glock18.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.8"
-	"pitch"			"98,101"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/glock18/glock18_01.wav"
-		"wave"		"`)weapons/glock18/glock18_02.wav"
-	}
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/glock18/glock18-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -783,10 +779,10 @@
 "Weapon_Glock18.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.7"
-	"pitch"			"99, 101"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/glock18/glock18_distant.wav"
+	"wave"			"~weapons/glock18/glock18-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -810,10 +806,10 @@
 "Weapon_Glock18.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5, 0.7"
-	"pitch"			"98, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/glock18/glock18_clipout.wav"
+	"wave"			"~weapons/glock18/glock_clipout.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -838,10 +834,10 @@
 "Weapon_Glock18.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.5, 0.7"
-	"pitch"			"98, 101"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/glock18/glock18_clipin.wav"
+	"wave"			"~weapons/glock18/glock_clipin.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -866,10 +862,10 @@
 "Weapon_Glock18.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.15, 0.25" //.draw
-	"pitch"			"98, 101"
+	"volume"		"0.3, 0.5" //.draw
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/glock18/glock18_draw.wav"
+	"wave"			"~weapons/glock18/glock_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -896,7 +892,7 @@
 	"volume"		"0.5, 0.7"
 	"pitch"			"98, 101"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/glock18/glock18_sliderelease.wav"
+	"wave"			"~weapons/glock18/glock_sliderelease.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -923,7 +919,7 @@
 	"volume"		"0.5, 0.7"
 	"pitch"			"98, 101"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/glock18/glock18_slideback.wav"
+	"wave"			"~weapons/glock18/glock_slideback.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
