@@ -2610,16 +2610,10 @@
 "Weapon_MP9.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.75"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/mp9/mp9_01.wav"
-		"wave"		"`)weapons/mp9/mp9_02.wav"
-		"wave"		"`)weapons/mp9/mp9_03.wav"
-		"wave"		"`)weapons/mp9/mp9_04.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/mp9/mp9-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2655,7 +2649,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/mp9/mp9_distant.wav"
+	"wave"			"~weapons/mp9/mp9-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -2679,8 +2673,8 @@
 "Weapon_MP9.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp9/mp9_clipout.wav"
 
@@ -2707,8 +2701,8 @@
 "Weapon_MP9.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp9/mp9_clipin.wav"
 
@@ -2735,7 +2729,7 @@
 "Weapon_MP9.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp9/mp9_draw.wav"
@@ -2762,8 +2756,8 @@
 "Weapon_MP9.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp9/mp9_boltback.wav"
 
@@ -2790,8 +2784,8 @@
 "Weapon_MP9.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp9/mp9_boltforward.wav"
 
@@ -3027,14 +3021,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/mp7/mp7_01.wav"
-		"wave"		"`)weapons/mp7/mp7_02.wav"
-		"wave"		"`)weapons/mp7/mp7_03.wav"
-		"wave"		"`)weapons/mp7/mp7_04.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/mp7/mp7-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3070,7 +3058,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_135B"
-	"wave"			"~weapons/mp7/mp7_distant.wav"
+	"wave"			"~weapons/mp7/mp7-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3094,8 +3082,8 @@
 "Weapon_MP7.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp7/mp7_clipout.wav"
 
@@ -3122,8 +3110,8 @@
 "Weapon_MP7.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp7/mp7_clipin.wav"
 
@@ -3150,7 +3138,7 @@
 "Weapon_MP7.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/mp7/mp7_draw.wav"
@@ -3177,8 +3165,8 @@
 "Weapon_MP7.SlideBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/mp7/mp7_slideback.wav"
 
@@ -3204,8 +3192,8 @@
 "Weapon_MP7.SlideForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/mp7/mp7_slideforward.wav"
 
