@@ -12246,7 +12246,7 @@
 	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_65dB"
-	"wave"			"weapons/increnade/inc_grenade_draw.wav"
+	"wave"			"weapons/incgrenade/inc_grenade_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
