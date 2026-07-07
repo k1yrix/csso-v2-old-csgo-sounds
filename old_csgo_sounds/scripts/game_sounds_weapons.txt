@@ -964,16 +964,10 @@
 "Weapon_GalilAR.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.70"
-	"pitch"			"100"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/galilar/galilar_01.wav"
-		"wave"		"`)weapons/galilar/galilar_02.wav"
-		"wave"		"`)weapons/galilar/galilar_03.wav"
-		"wave"		"`)weapons/galilar/galilar_04.wav"
-	}
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/galilAR/galil-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1009,7 +1003,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/galilar/galilar_distant.wav"
+	"wave"			"~weapons/galilar/galil-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1035,7 +1029,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/galilar/galilar_clipout.wav"
+	"wave"			"~weapons/galilar/galil_clipout.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -1063,7 +1057,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/galilar/galilar_clipin.wav"
+	"wave"			"~weapons/galilar/galil_clipin.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -1091,7 +1085,7 @@
 	"volume"		"0.3" //.draw
 	"pitch"			"100"
 	"pitch"			"PITCH_NORM"
-	"wave"			"~weapons/galilar/galilar_draw.wav"
+	"wave"			"~weapons/galilar/galil_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1118,7 +1112,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/galilar/galilar_boltback.wav"
+	"wave"			"~weapons/galilar/galil_boltback.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -1146,7 +1140,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/galilar/galilar_boltforward.wav"
+	"wave"			"~weapons/galilar/galil_boltforward.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -1198,9 +1192,9 @@
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
-	"pitch"			"99, 101"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/m249/m249_01.wav"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/m249/m249-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1236,7 +1230,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/m249/m249_distant.wav"
+	"wave"			"~weapons/m249/m249-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1462,12 +1456,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/negev/negev_01.wav"
-		"wave"		"`)weapons/negev/negev_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/negev/negev-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1502,12 +1492,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/negev/negev_clean_01.wav"
-		"wave"		"`)weapons/negev/negev_clean_02.wav"
-	}
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			")weapons/negev/negev-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1543,7 +1529,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/negev/negev_distant.wav"
+	"wave"			"weapons/negev/negev-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
