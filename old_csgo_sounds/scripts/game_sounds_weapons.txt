@@ -4089,13 +4089,8 @@
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`weapons/scar20/scar20_01.wav"
-		"wave"		"`weapons/scar20/scar20_02.wav"
-		"wave"		"`weapons/scar20/scar20_03.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/scar20/scar20_unsil-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4141,12 +4136,8 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  		"SNDLVL_94dB"
-	"rndwave"
-	{
-		"wave"		"~weapons/scar20/scar20_distant_01.wav"
-		"wave"		"~weapons/scar20/scar20_distant_02.wav"
-		"wave"		"~weapons/scar20/scar20_distant_03.wav"
-	}
+	"wave"			")weapons/scar20/scar20_unsil-1-distant.wav"
+
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4170,8 +4161,8 @@
 "Weapon_SCAR20.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/scar20/scar20_clipout.wav"
 
@@ -4198,8 +4189,8 @@
 "Weapon_SCAR20.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/scar20/scar20_clipin.wav"
 
@@ -4226,7 +4217,7 @@
 "Weapon_SCAR20.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/scar20/scar20_draw.wav"
@@ -4253,8 +4244,8 @@
 "Weapon_SCAR20.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/scar20/scar20_boltback.wav"
 
@@ -4281,8 +4272,8 @@
 "Weapon_SCAR20.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"0.7"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_60dB"
 	"wave"			"~weapons/scar20/scar20_boltforward.wav"
 
@@ -4414,16 +4405,10 @@
 "Weapon_SG553.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"rndwave"
-	{
-		"wave"		"`)weapons/sg553/sg553_01.wav"
-		"wave"		"`)weapons/sg553/sg553_02.wav"
-		"wave"		"`)weapons/sg553/sg553_03.wav"
-		"wave"		"`)weapons/sg553/sg553_04.wav"
-	}
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			")weapons/sg556/sg556-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4459,7 +4444,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/sg553/sg553_distant.wav"
+	"wave"			")weapons/sg556/sg556-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4512,7 +4497,7 @@
 	"volume"		"0.4"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_zoom_in.wav"
+	"wave"			"~weapons/sg556/sg556_zoom_in.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4563,7 +4548,7 @@
 	"volume"		"0.6"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_zoom_out.wav"
+	"wave"			"~weapons/sg556/sg556_zoom_out.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4587,8 +4572,8 @@
 "Weapon_SG553.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/sg553/sg553_clipout.wav"
 
@@ -4615,10 +4600,10 @@
 "Weapon_SG553.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_clipin.wav"
+	"wave"			"~weapons/sg556/sg556_clipin.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -4643,10 +4628,10 @@
 "Weapon_SG553.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_draw.wav"
+	"wave"			"~weapons/sg556/sg556_draw.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4670,10 +4655,10 @@
 "Weapon_SG553.BoltBack"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_boltback.wav"
+	"wave"			"~weapons/sg556/sg556_boltback.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
@@ -4699,10 +4684,10 @@
 "Weapon_SG553.BoltForward"
 {
 	"channel"		"CHAN_ITEM"
-	"volume"		"1.0"
-	"pitch"			"100"
+	"volume"		"0.5, 1.0"
+	"pitch"			"97, 105"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/sg553/sg553_boltforward.wav"
+	"wave"			"~weapons/sg556/sg556_boltforward.wav"
 
 	"soundentry_version" "2"
 	"hrtf_follow" "1"
