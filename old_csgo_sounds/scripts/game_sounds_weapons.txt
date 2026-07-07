@@ -3743,10 +3743,10 @@
 "Weapon_SSG08.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.8"
+	"volume"		"1"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"  	"SNDLVL_79dB"
-	"wave"			"`)weapons/ssg08/ssg08_01.wav"
+	"soundlevel"  	"SNDLVL_93dB"
+	"wave"			"`)weapons/ssg08/ssg08-1.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3791,7 +3791,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~weapons/ssg08/ssg08_distant.wav"
+	"wave"			"~weapons/ssg08/ssg08-1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -3871,7 +3871,7 @@
 "Weapon_SSG08.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3" //.draw
+	"volume"		"0.5" //.draw
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/ssg08/ssg08_draw.wav"
@@ -4010,7 +4010,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/ssg08/ssg08_zoom_in.wav"
+	"wave"			"~weapons/ssg08/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -4062,7 +4062,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
-	"wave"			"~weapons/ssg08/ssg08_zoom_in.wav"
+	"wave"			"~weapons/ssg08/zoom.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
