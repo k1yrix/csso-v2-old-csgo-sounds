@@ -7400,7 +7400,7 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			"~)weapons/awp/awp1_distant.wav"
+	"wave"			"~)weapons/awp/awp1-distant.wav"
 
 	"soundentry_version" "2"
 	"operator_stacks"
