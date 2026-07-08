@@ -5897,7 +5897,7 @@
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"1"
-	"pitch"			"97, 105"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltback.wav"
 
@@ -5925,7 +5925,7 @@
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"1"
-	"pitch"			"97, 105"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltforward.wav"
 
@@ -6269,7 +6269,7 @@
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"1"
-	"pitch"			"97, 105"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltback.wav"
 
@@ -6297,7 +6297,7 @@
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"1"
-	"pitch"			"97, 105"
+	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"~weapons/m4a1/m4a1_boltforward.wav"
 
