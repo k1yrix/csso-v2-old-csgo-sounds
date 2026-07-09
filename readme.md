@@ -1,23 +1,19 @@
-> [!Warning]
-> As CSSO 2.0 is fully released, I will need time to rewrite the file to make sure modifications to the script are synced up with the original.
-
-# Counter-Strike: Source Offensive v2 - Old CS:GO Sounds
+# Counter-Strike: Source Offensive v2 Addon - Old CS:GO Sounds
 
 miss the old banging sounds from the old times of cs:go, but in source offensive? well you came to the right place!
 
-compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sound script with no recompiled models. (also I added in old knife sounds for fun as well :3)
+compared to pimon's v1.1 of this addon, this addon only modifies the vanilla sound script with no recompiled models. (also I added in old knife and c4 sounds for fun as well :3)
 
-this overrides both non-hd and hd weapons
+this overrides both non-hd and hd weapons.
 
 ---
 
 ## install?
-1. go to [the releases tab](https://github.com/k1yrix/csso-v2-old-csgo-sounds/releases) and download the latest release (do not download directly from this repository. it does NOT have the sounds required)
-2. unzip the repository
+1. go to [the releases tab](https://github.com/k1yrix/csso-v2-old-csgo-sounds/releases) and download the latest release. it does not matter which file format you choose to download (zip, tar.gz, vpk), they all have the same content. (do not download directly from this repository. it does NOT have the sounds required)
+2. unzip the folder (applicable to zip or tar.gz only; make sure you extract with root folder!)
 3. open another file explorer window and find your csso installation (usually in the root of cs: source)
 4. open csso's content folder (`csso`) then its `custom` folder
-5. in the previous file explorer window, open the repository's folder
-6. drag the `old_csgo_sounds` folder into `custom`
+5. in the previous file explorer window, drag the `old_csgo_sounds` folder or `old_csgo_sounds.vpk` into `custom`
 7. restart cs: source if you haven't already
 8. happy banging noises 🎉
 
