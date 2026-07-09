@@ -1,4 +1,4 @@
-[ru](https://github.com/k1yrix/csso-v2-old-csgo-sounds/blob/main/readme-ru.md)
+([ru](https://github.com/k1yrix/csso-v2-old-csgo-sounds/blob/main/readme-ru.md))
 
 # Counter-Strike: Source Offensive v2 Addon - Old CS:GO Sounds
 
