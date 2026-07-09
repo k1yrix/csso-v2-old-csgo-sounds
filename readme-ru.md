@@ -1,4 +1,4 @@
-> > [!WARNING]
+> [!WARNING]
 > (this entire thing is google translated. I cannot verify the accuracy of the translation of its entirely)
 
 # Аддон Counter-Strike: Source Offensive v2 — Старые звуки CS:GO
