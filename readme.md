@@ -1,3 +1,5 @@
+[ru](https://github.com/k1yrix/csso-v2-old-csgo-sounds/blob/main/readme-ru.md)
+
 # Counter-Strike: Source Offensive v2 Addon - Old CS:GO Sounds
 
 miss the old banging sounds from the old times of cs:go, but in source offensive? well you came to the right place!
