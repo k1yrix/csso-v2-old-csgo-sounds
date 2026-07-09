@@ -25,6 +25,6 @@ this overrides both non-hd and hd weapons.
 ---
 
 > [!NOTE]
-> the R8 revolver and MP5 is not covered by this addon because their sounds were default as it prior to and after the weapon sound overhaul update respectively.
+> the R8 revolver and MP5 is not covered by this addon because their sounds did not change since their introductions to the game.
 >
 > also for the knife, only wall impact and swing sounds were changed. (crica 2014) as far as I know, all knifes were mostly at default sounds regardless of the weapon sound overhaul update.
